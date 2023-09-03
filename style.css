@@ -94,12 +94,11 @@ img {
   color: var(--unvalid);
 }
 
-#inputSet input {
+#inputSet input:empty {
   padding-left: 1rem;
   background: transparent;
   height: 3rem;
   width: 25rem;
-
   border: 2px solid var(--input-border);
   border-radius: 0.4rem;
 }
